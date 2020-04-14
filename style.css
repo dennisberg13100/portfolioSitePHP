@@ -1,5 +1,9 @@
 body {
-	background: #666;
+	background: rgb(163,163,184);
+	background: -moz-radial-gradient(circle, rgba(163,163,184,1) 0%, rgba(33,33,52,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(163,163,184,1) 0%, rgba(33,33,52,1) 100%);
+	background: radial-gradient(circle, rgba(163,163,184,1) 0%, rgba(33,33,52,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a3a3b8",endColorstr="#212134",GradientType=1);
 }
 .bg {
 	height: 100vh;
@@ -12,6 +16,8 @@ body {
 .face {
 	width: 75%;
 	height: 75%;
+	background-image: url("./assets/images/face.svg");
+	background-size: cover;
 }
 .face iframe {
 	margin: 0;
@@ -20,7 +26,6 @@ body {
 	border: 0!important;
 	overflow: hidden;
 }
-
 .container {
 	position: absolute;
 	height: 100vh;
@@ -30,7 +35,12 @@ body {
 .icon-top {
 	width: 25%;
 	height: 100%;
-	background-color: #00f;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.icon-top-right {
+	justify-content: flex-end;
 }
 .container-top {
 	width: 100%;
@@ -47,5 +57,27 @@ body {
 .container-border-center {
 	width: 25%;
 	height: 100%;
-	background-color: #00f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dance:hover {
+	animation-name: keyframes;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 30% 5%;
+    animation-delay: -.75s;
+    animation-duration: .25s
+}
+
+@keyframes keyframes {
+    0% {
+      transform: rotate(-1.5deg);
+      animation-timing-function: ease-in;
+    }
+
+    50% {
+      transform: rotate(2deg);
+      animation-timing-function: ease-out;
+    }
 }

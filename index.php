@@ -9,33 +9,37 @@
 
 	<div class="bg">
 		<div class="face">
-			<iframe height="100%" width="100%" frameBorder="0" src="./assets/images/firstFace300.svg"></iframe>
-			<!-- <img src="./assets/images/firstFace300.svg"/> -->
+			<img id="eyes" src="./assets/images/eyes.svg"/>
+
 		</div>
 		<div class="container">
 			<div class="container-top">
 				<div class="icon-top">
-					teste
+					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
 				</div>
-				<div class="icon-top">
-					teste
+				<div class="icon-top icon-top-right">
+					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
 				</div>
 			</div>
 			<div class="container-center">
 
 				<div class="container-border-center">
+					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
 				</div>
 
 				<div class="container-border-center">
+					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
 				</div>
 				
 			</div>
 			<div class="container-center">
 
 				<div class="container-border-center">
+					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
 				</div>
 
 				<div class="container-border-center">
+					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
 				</div>
 				
 			</div>
