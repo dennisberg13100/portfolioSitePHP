@@ -15,31 +15,31 @@
 		<div class="container">
 			<div class="container-top">
 				<div class="icon-top">
-					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
+					<img class="dance" id="eyes" width="90%" height="90%" src="./assets/images/games.svg"/>
 				</div>
 				<div class="icon-top icon-top-right">
-					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
+					<img class="dance" id="eyes" width="90%" height="90%" src="./assets/images/about.png"/>
 				</div>
 			</div>
 			<div class="container-center">
 
 				<div class="container-border-center">
-					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/aboutme.svg"/>
+					<img class="dance" id="eyes" width="90%" height="90%" src="./assets/images/aboutme.svg"/>
 				</div>
 
 				<div class="container-border-center">
-					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
+					<img class="dance" id="eyes" width="90%" height="90%" src="./assets/images/about.png"/>
 				</div>
 				
 			</div>
 			<div class="container-center">
 
 				<div class="container-border-center">
-					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
+					<img class="dance" id="eyes" width="90%" height="90%" src="./assets/images/github.svg"/>
 				</div>
 
 				<div class="container-border-center">
-					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
+					<img class="dance" id="eyes" width="90%" height="90%" src="./assets/images/about.png"/>
 				</div>
 				
 			</div>
