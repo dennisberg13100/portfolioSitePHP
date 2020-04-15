@@ -11,22 +11,29 @@ $(function(){
 		var y = e.pageY;//Vertical
 
 		var ratio = pageY/30000;
+		var desX = x - middleX;
+		var desY = y - middleY;
 
-		var desX = (x - middleX) * ratio;
-		var desY = (y - middleY) * ratio;
-		
-		
-		console.log(desX);
-		console.log(desY);
-		console.log(ratio);
-		
-		$("#eyes").css('margin-left', desX);
-		$("#eyes").css('margin-top', desY);
+		// Check if the eyes are in the eyeball area
+		if( Math.pow(desX, 2) + Math.pow(desY, 2) < Math.pow(middleY, 2) ) {
+			moveEyes(desX, desY, ratio);
+		} else {
+			// calculate the angle and move the eyes on the max range on this angle
+			var rad = Math.atan2(desX, desY);
+			var desX = Math.sin(rad) * middleY;
+			var desY = Math.cos(rad) * middleY;
 
-		// console.log(pageX);
-		// console.log(pageY);
-		// console.log(x);
-		// console.log(y);
-
+			moveEyes(desX, desY, ratio);
+		}
 	});
+
+	function moveEyes(desX, desY, ratio){
+		var desX = desX * ratio;
+		var desY = desY * ratio;
+
+		$("#eyes").css('margin-left', desX);
+		$("#eyes").css('margin-right', (desX * -1));
+		$("#eyes").css('margin-top', desY);
+		$("#eyes").css('margin-bottom', (desY * -1));
+	}
 })

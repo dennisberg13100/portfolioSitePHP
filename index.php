@@ -24,7 +24,7 @@
 			<div class="container-center">
 
 				<div class="container-border-center">
-					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/about.png"/>
+					<img class="dance" id="eyes" width="75%" height="75%" src="./assets/images/aboutme.svg"/>
 				</div>
 
 				<div class="container-border-center">
