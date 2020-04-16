@@ -35,7 +35,9 @@
 			<div class="container-center">
 
 				<div class="container-border-center">
-					<img class="dance" id="eyes" width="90%" height="90%" src="./assets/images/github.svg"/>
+					<a href="https://github.com/dennisberg13100">
+						<img class="dance" id="eyes" width="90%" height="90%" src="./assets/images/github.svg"/>
+					</a>
 				</div>
 
 				<div class="container-border-center">
